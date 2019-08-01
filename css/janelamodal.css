@@ -1,0 +1,17 @@
+        
+/*configuração modal*/
+.modal-header{
+    background-color: #389c38;
+    color: #fff;
+    clear: both;
+}
+.modal-body{
+  color: #000;
+  text-align: justify;
+}
+.modal-footer{
+  background-color: #EBEBEB;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+

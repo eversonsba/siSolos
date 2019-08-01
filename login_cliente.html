@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>login</title>
+	<link rel="icon" href="imagem/favicon.ico">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/login.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/countdown.css">
+	<link rel="stylesheet" href="css/simplelightbox.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/carousel-fade.css">
+	<link rel="stylesheet" href="css/fsbanner.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/fsbanner.js"></script>
+	<script src="js/jquery.downCount.js"></script>
+	<script src="js/jquery.vide.js"></script>
+	<script src="js/simple-lightbox.js"></script>
+</head>
+
+<body> 
+	<nav id="menu" class="navbar menulogin navbar-expand-xl row container-fluid py-1 m-0">
+		<header>
+			<a href="index.html" class="navbar-brand titulo1">Laboratório de Solos</a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#menubar"><span class="fa fa-bars"></span></button>
+		</header>
+
+		<div id="menubar" class="justify-content-end text-light collapse navbar-collapse container-fluid py-0 m-0">
+			<h2 class="titulo1">Cliente</h2>
+	 	</div>
+	</nav>
+
+<article class="container-fluid py-4">
+	<div class="container">
+	   <div class="row">
+		    <figure class=" col-md-12 text-center">
+		         <img class="img-responsive logo" src="images/logolab.jpg" alt="Imagem"/>
+		    </figure>              
+	   </div>
+	</div>
+		
+	<div class="container">
+ 		<form action="logando_cliente.php" method="post" accept-charset="utf-8" class="form-login">
+			<label for="email" class="sr-only">CPF/CNPJ</label>
+				<input type="number" name="identificador" class="form-control login" placeholder="CPF/CNPJ" required autofocus>
+			<label for="senha" class="sr-only">Senha</label>
+				<input type="password" name="senha" class="form-control" placeholder="senha" required>
+			<div>
+				<label>
+				<a href="#" class="text-center" value="lembrar">Esqueci minha senha</a>
+			</div>
+			<button type="submit" class="btn green text-light btn-lg btn-block">Entrar</button>
+		</form>
+	</div>
+</article>
+</body>
+</html>

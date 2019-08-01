@@ -1,0 +1,55 @@
+
+/*login*/
+
+body{
+
+
+}
+
+.form-login{
+	max-width: 350px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.form-login .form-login-heading,
+.form-login .form-login-checkbox{
+	margin-bottom: 22px;
+}
+
+.form-login .form-control{
+	position: relative;
+	height: auto;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.form-login .form-control:focus{
+	z-index: 2;
+}
+
+.form-login input[type="email"]{
+	margin-bottom: 2px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.form-login input[type="senha"]{
+	margin-bottom: 10px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+/*logo*/
+
+.text-center .img-responsive {
+    margin: 0 auto;
+}
+.logo {
+	width: 250px;
+	height: 250px;
+	padding-bottom: 1rem;
+
+}
